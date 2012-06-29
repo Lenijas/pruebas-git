@@ -1,3 +1,15 @@
+	############################################################################
+				GUIA DE COMANDOS DE GIT
+	############################################################################
+
+
+
+
+
+
+	******  Inicializacion y configuracion   ***********
+
+
 git init -> inicializa un directorio para usarlo como repositorio
 
 git config -> permite cambiar configuraciones de git
@@ -10,8 +22,41 @@ git config -> permite cambiar configuraciones de git
 
 git remote add origin direcion_repositorio -> crea un alias a un repositorio externo, en este caso lo llamamos origin
 
+
+
+
+
+	******** Agregando archivos, actualizando cambios y estado del respositorio ********
+
+
+git add nombre_archivo  -> agrega el archivo al repositorio para llevar un control de versiones
+git add . -> agrega todos los archivos que no esten agregaos al repositorio para el control de versiones
+git status -> nos muestra el estado en el que se encuentra el repositorio
+git commit -m "Comentario" -> aplica los cambios en el repositorio y permite poner un comentario sobre las modificaciones
+
+
+
+
+	
+	*********** Intercambiando archivos entre repositorios  *************
+
 git push origin master -> Sube los archivos de la rama local master al servidor remoto origin (anteriormente habiamos creado el alias)
 
-git pull   
+git pull origin master -> Descarga una copia de los archivos del servidor
+
+git clone //todo especificar
+
+
+
+	
+	*********** Creando y navegando por las ramas *********
+
+#Las ramas las usamos para hacer "hilos" del proyecto para realizar cambios sin afectar al hilo principal, una vez los cambios sean exitosos podemos reunir las ramas para aplicar los cambios
+
+git branch nombre_rama  -> Crea una rama con el nombre especificado
+git branch nombre_rama --edit-description -> permite agregar una descripcion a la rama
+git branch | git branch --list  ->lista todas las ramas
+git checkout nombre_rama --> cambia la rama activa  
+
 
 
