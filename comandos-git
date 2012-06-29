@@ -1,0 +1,17 @@
+git init -> inicializa un directorio para usarlo como repositorio
+
+git config -> permite cambiar configuraciones de git
+
+	ejemplos:
+
+	git config --global user.name "Jaisiel Santana" establece el nombre de usuario global a Jaisiel Santana
+	git congig --global user.mail "xxx@xxx.com" establece la direccion de correo global
+
+
+git remote add origin direcion_repositorio -> crea un alias a un repositorio externo, en este caso lo llamamos origin
+
+git push origin master -> Sube los archivos de la rama local master al servidor remoto origin (anteriormente habiamos creado el alias)
+
+git pull   
+
+
