@@ -65,14 +65,11 @@ for ele in list:
 
 forzando hook11
 
-
- 
-```
+ ```
 
  javascript
     sdk = new AeonSDK(channel.PUB_URL);
     msg = { "number": 1};
     sdk.publish(msg);
 
-
-      ```
+   ```
