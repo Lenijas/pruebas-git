@@ -71,11 +71,9 @@ forzando hook11
     sdk = new AeonSDK(channel.PUB_URL);
     msg = { "number": 1};
     sdk.publish(msg);
-
-    ```
+```
 
 
     
 http://<tomcat>:8080
-
 (<http://localhost:8080/>) this means
