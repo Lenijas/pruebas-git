@@ -64,3 +64,15 @@ for ele in list:
 	2. two thing `i can write code`, and `more` wipee!
 
 forzando hook11
+
+
+ 
+```
+
+ javascript
+    sdk = new AeonSDK(channel.PUB_URL);
+    msg = { "number": 1};
+    sdk.publish(msg);
+
+
+```
