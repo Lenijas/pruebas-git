@@ -89,3 +89,7 @@ http://<tomcat>:8080
   Create Company       POST     /v1/companies
   Upsert Company       PUT      /v1/companies/{companyId}
   Delete Company       DELETE   /v1/companies/{companyId}
+
+
+Add new items as a last items under each section. In example put below
+\<dependency\> as a last dependency definition in the pom.xml
