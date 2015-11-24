@@ -77,3 +77,15 @@ forzando hook11
     
 http://<tomcat>:8080
 (<http://localhost:8080/>) this means
+
+
+
+#### Companies
+
+  Name                 Verb     URL
+  -------------------- -------- ---------------------------
+  Get Company          GET      /v1/companies/{companyId}
+  Get Companies List   GET      /v1/companies/
+  Create Company       POST     /v1/companies
+  Upsert Company       PUT      /v1/companies/{companyId}
+  Delete Company       DELETE   /v1/companies/{companyId}
