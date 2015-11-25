@@ -93,3 +93,10 @@ http://<tomcat>:8080
 
 Add new items as a last items under each section. In example put below
 \<dependency\> as a last dependency definition in the pom.xml
+
+
+[Apache Maven](https://maven.apache.org/index.html), or other building
+tools are necessary to create the final WAR package that will run on
+Tomcat.\
+We can also suggest to build the WAR package by using your favorite IDE
+(which should include Maven).
