@@ -104,3 +104,29 @@ We can also suggest to build the WAR package by using your favorite IDE
 
 adsfadfa
 adsfasdfadsf
+
+
+
+
+check that all processes are up, to check it execute
+
+```
+ps -ef | grep iot
+```
+- If the iot agent is active, the following processes should be active:
+```
+iotagent 19682     1  0 10:32 ?        00:00:00 /usr/local/iot/bin/iotagent -n IoTPlatform -v INFO -i 192.0.3.25 -p 8080 -d /usr/local/iot/lib -c /etc/iot/config.json
+```
+- If storage type is "mongodb" you need a mongodb database up.   
+``` 
+mongod    1173     1  0 Jul09 ?        08:55:40 /usr/bin/mongod -f /etc/mongod.conf
+```
+- If the MQTT protocol is active, the following processes should be active:  Mosquitto
+```
+root      8098     1  0 Jul13 ?        00:47:26 /usr/sbin/mosquitto -c /etc/iot/mosquitto.conf
+``` 
+- If the IoT Manager module  is active, the following processes should be active: MongoDB
+```
+iotagent 20291     1  0 Sep24 ?        00:00:42 /usr/local/iot/bin/iotagent -m -n Manager -v INFO -i 192.0.3.25 -p 8081 -d /usr/local/iot/lib -c /etc/iot/config.json
+
+```
