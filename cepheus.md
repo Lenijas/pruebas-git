@@ -89,3 +89,5 @@ FIWARE Cepheus is licensed under the [GNU General Public License Version 2](LICE
 
 Ask your programming questions using [Stackoverflow](http://stackoverflow.com/questions/tagged/fiware) and your general questions on [FIWARE Q&A](https://ask.fiware.org/questions/).
 In both cases please use the tags `fiware` and `fiware-cepheus`.
+
+![sequence diagram](https://img.shields.io/badge/gitter-join%20chat%20→-brightgreen.svg)
