@@ -91,3 +91,26 @@ Ask your programming questions using [Stackoverflow](http://stackoverflow.com/qu
 In both cases please use the tags `fiware` and `fiware-cepheus`.
 
 ![sequence diagram](https://img.shields.io/badge/gitter-join%20chat%20→-brightgreen.svg)
+
+
+
+|URL information              |Value                    | 
+|:----------------------------|:------------------------| 
+|<b>EntityID</b>              | Room1                   | 
+|<b>AttributeName</b>         | Temperature             | 
+|<b>ValueID</b>               | Ground                  | 
+ 
+ 
+ 
+|Payload Information Request  |Value                    | 
+|:----------------------------|:------------------------| 
+|<b>Value</b>                 | 26.3                    | 
+ 
+ 
+ 
+ 
+|Payload Information Response      |Description     |           | Value      | 
+|:---------------------------------|:---------------|:----------|:-----------| 
+|<b>StatusCode</b>                 |                |           |            | 
+|                                  | Code           | 200       |            | 
+|                                  | ReasonPhrase   | Ok        |            |
