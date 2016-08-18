@@ -11,7 +11,7 @@
 - [Files](#files)
   - [.jshintrc](#jshintrc)
   - [Gruntfile.js](#gruntfilejs)
-  - [index.html](#index)
+  - [index.html](#index.html)
   - [myReservations.html](#myReservations.html)
   - [myReviews.html](#myReviews.html)
   - [organizationReservations.html](#organizationReservations.html)
