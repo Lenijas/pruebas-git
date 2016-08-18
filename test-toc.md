@@ -12,11 +12,11 @@
   - [.jshintrc](#jshintrc)
   - [Gruntfile.js](#gruntfilejs)
   - [index.html](#index)
-  - [myReservations.html](#myReservations)
-  - [myReviews.html](#myReviews)
-  - [organizationReservations.html](#organizationReservations)
-  - [organizationRestaurants.html](#organizationRestaurants)
-  - [organizationReviews.html](#organizationReviews)
+  - [myReservations.html](#myReservations.html)
+  - [myReviews.html](#myReviews.html)
+  - [organizationReservations.html](#organizationReservations.html)
+  - [organizationRestaurants.html](#organizationRestaurants.html)
+  - [organizationReviews.html](#organizationReviews.html)
   - [package.json](#packagejson)
 
 
