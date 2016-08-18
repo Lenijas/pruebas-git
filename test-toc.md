@@ -12,11 +12,11 @@
   - [.jshintrc](#jshintrc)
   - [Gruntfile.js](#gruntfilejs)
   - [index.html](#indexhtml)
-  - [myReservations.html](#myReservationshtml)
-  - [myReviews.html](#myReviewshtml)
-  - [organizationReservations.html](#organizationReservationshtml)
-  - [organizationRestaurants.html](#organizationRestaurantshtml)
-  - [organizationReviews.html](#organizationReviewshtml)
+  - [myReservations.html](#myreservationshtml)
+  - [myReviews.html](#myreviewshtml)
+  - [organizationReservations.html](#organizationreservationshtml)
+  - [organizationRestaurants.html](#organizationrestaurantshtml)
+  - [organizationReviews.html](#organizationreviewshtml)
   - [package.json](#packagejson)
 
 
@@ -43,11 +43,11 @@ Contains the JavaScript files used for the Tourguide client:
   - index.js: Initializations for main view.
   - myReservations.js: Initializations for user reservations view.
   - myReviews.js: Initializations for user reviews view.
-  - organizationReservations: Initializations for user organization
+  - organizationReservations.js: Initializations for user organization
    reservations view.
-  - organizationRestaurants: Initializations for user organization
+  - organizationRestaurants.js: Initializations for user organization
    restaurants view.
-  - organizationReviews: Initializations for user organization
+  - organizationReviews.js: Initializations for user organization
    reviews view.
   - RestaurantAPI.js: Module that contains wraps to the tourguide application.
   It also provides some functions to simplify the responses.
