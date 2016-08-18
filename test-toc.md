@@ -34,24 +34,24 @@ Folder where used images are stored.
 
 Contains the JavaScript files used for the Tourguide client:
   
-  - bootstrap: Folder that contains bootstrap files.
-  - AJAXRequest.js: Auxiliary module to perform AJAX request.
-  - clientLogic.js: Specify the client application behaviour. 
+  - **bootstrap**: Folder that contains bootstrap files.
+  - **AJAXRequest.js**: Auxiliary module to perform AJAX request.
+  - **clientLogic.js**: Specify the client application behaviour. 
   It interconnects the restaurantsAPI and the drawModule modules.
-  - connectionsAPI.js: Module responsible for user management and connections.
-  - drawModule.js Rendering module.
-  - index.js: Initializations for main view.
-  - myReservations.js: Initializations for user reservations view.
-  - myReviews.js: Initializations for user reviews view.
-  - organizationReservations.js: Initializations for user organization
+  - **connectionsAPI.js**: Module responsible for user management and connections.
+  - **drawModule.js**: Rendering module.
+  - **index.js**: Initializations for main view.
+  - **myReservations.js**: Initializations for user reservations view.
+  - **myReviews.js**: Initializations for user reviews view.
+  - **organizationReservations.js**: Initializations for user organization
    reservations view.
-  - organizationRestaurants.js: Initializations for user organization
+  - **organizationRestaurants.js**: Initializations for user organization
    restaurants view.
-  - organizationReviews.js: Initializations for user organization
+  - **organizationReviews.js**: Initializations for user organization
    reviews view.
-  - RestaurantAPI.js: Module that contains wraps to the tourguide application.
+  - **RestaurantAPI.js**: Module that contains wraps to the tourguide application.
   It also provides some functions to simplify the responses.
-  - utils.js: Contains utilities used by other modules.
+  - **utils.js**: Contains utilities used by other modules.
 
 ### spec
 
