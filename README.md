@@ -147,3 +147,11 @@ code 1
     
     code 2.1
     ```
+
+
+
+## License
+
+This specification is licensed under the
+[FIWARE Open Specification License (implicit patent license)]
+(https://forge.fiware.org/plugins/mediawiki/wiki/fiware/index.php/Implicit_Patents_License).
