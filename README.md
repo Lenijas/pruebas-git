@@ -155,3 +155,42 @@ code 1
 This specification is licensed under the
 [FIWARE Open Specification License (implicit patent license)]
 (https://forge.fiware.org/plugins/mediawiki/wiki/fiware/index.php/Implicit_Patents_License).
+
+## Nested list
+
+
+# Subscription payload validations
+
+The particular validations that Orion implements on NGSIv2 subscription payloads are the following ones:
+
+* **description**: optional (max length 1024)
+* **subject**: mandatory
+    * **entities**: mandatory
+        * **id** or **idPattern**: one of them is mandatory (but both at the same time is not allowed). id
+            must follow NGSIv2 restrictions for IDs. idPattern must be not empty and a valid regex.
+        * **type**: optional (but if present it must follow NGSIv2 restrictions for IDs)
+    * **condition**: optional (but if present it must have a content, i.e. `{}` is not allowed)
+        * **attrs**: optional (but if present it must be a list; empty list is allowed)
+        * **expression**: optional (but if present it must have a content, i.e. `{}` is not allowed)
+            * **q**: optional (but if present it must be not empty, i.e. `""` is not allowed)
+            * **georel**: optional (but if present it must be not empty, i.e. `""` is not allowed)
+            * **geometry**: optional (but if present it must be not empty, i.e. `""` is not allowed)
+            * **coords**: optional (but if present it must be not empty, i.e. `""` is not allowed)
+* **notification**:
+    * **http**: must be present if `httpCustom` is omitted, forbidden otherwise
+        * **url**: mandatory (must be a valid URL)
+    * **httpCustom**: must be present if `http` is omitted, forbidden otherwise
+        * **url**: mandatory (must be not empty)
+        * **headers**: optional (but if present it must have a content, i.e. `{}` is not allowed)
+        * **qs**: optional (but if present it must have a content, i.e. `{}` is not allowed)
+        * **method**: optional (but if present it must be a valid HTTP method)
+        * **payload**: optional (empty string is allowed)
+    * **attrs**: optional (but if present it must be a list; empty list is allowed)
+    * **metadata**: optional (but if present it must be a list; empty list is allowed)
+    * **exceptAttrs**: optional (but it cannot be present if `attrs` is also used; if present it must be a non-empty list)
+    * **attrsFormat**: optional (but if present it must be a valid attrs format keyword)
+* **throttling**: optional (must be an integer)
+* **expires**: optional (must be a date or empty string "")
+* **status**: optional (must be a valid status keyword)
+
+
