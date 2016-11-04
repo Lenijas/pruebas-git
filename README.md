@@ -198,3 +198,9 @@ The particular validations that Orion implements on NGSIv2 subscription payloads
 ![File:InterfaceDesigner_UpButton.png|100px|caption|"Up" button](https://forge.fiware.org/plugins/mediawiki/wiki/fiware/images/1/17/InterfaceDesigner_UpButton.png)
 
 ![File:InterfaceDesigner_UpButton.png|caption|"Up" button](https://forge.fiware.org/plugins/mediawiki/wiki/fiware/images/1/17/InterfaceDesigner_UpButton.png)
+
+
+![File:InterfaceDesigner_UpButton.png | width=100](https://forge.fiware.org/plugins/mediawiki/wiki/fiware/images/1/17/InterfaceDesigner_UpButton.png)
+
+
+![File:InterfaceDesigner_UpButton.png =100x100](https://forge.fiware.org/plugins/mediawiki/wiki/fiware/images/1/17/InterfaceDesigner_UpButton.png)
